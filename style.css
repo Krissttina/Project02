@@ -65,9 +65,9 @@ main section{
     align-items: center;
 }
 
-span.text{
-    padding-left: 250px;   
-}
+/*.text{
+    display: block;
+}*/
 
 h4{
     margin: 1.0rem 0;
@@ -106,7 +106,7 @@ h3{
 
 .sample li{
     display: inline-block;
-    padding: 0 45px;
+    padding: 0 10px; /*move this*/
     width: 200px;
 }
 
@@ -125,6 +125,49 @@ h3{
     margin: 0;
 }
 
+.preview button{
+    border-radius: 50%;
+    width: 30px;
+    background-color: #FFB33F;
+}
+
+/*Contacts & Sops section*/
+
+.contactsnshops article{
+    padding: 0 150px;
+}
+
+/*Gallery*/
+
+.gallery{
+    display: block;
+    background-color: beige;
+    padding-top: 20px;
+}
+
+.gallery h2{
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+span{
+    display: inline-flex;
+}
+
+.images article{
+    display: inline-block;
+    padding: 0 55px; /*move*/
+}
+
+.images img{
+    display: inline-block;
+    padding: 20px 65px;
+    border-radius: 30px;
+    height: 300px;
+}
+
 /*footer*/
 
 footer{
@@ -134,5 +177,6 @@ footer{
 }
 
 footer p {
+    margin: 0;
     padding: 8px 0 0 5px;
 }
